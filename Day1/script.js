@@ -1,4 +1,4 @@
-// Q.1 Difference between var, let, and const
+// Q.1) Difference between var, let, and const
 
 // 1) var
     // var is function-scoped.
@@ -26,7 +26,7 @@
 
 // -----------------------------------------------------------------------------------
 
-// Q.2 Sum of two integers.
+// Q.2) Sum of two integers.
 
     // let a = 10;
     // let b = 20;
@@ -37,7 +37,7 @@
 
 // -----------------------------------------------------------------------------------
 
-// Q.3 Relation between integer and string.
+// Q.3) Relation between integer and string.
 
 // Relation between String and String.
 
@@ -68,7 +68,7 @@
 
 // -----------------------------------------------------------------------------------
 
-// Q.4 Sum and Message. -type coercion
+// Q.4) Sum and Message. -type coercion
 
     // let a = 10;
     // let b = 20;
@@ -79,7 +79,7 @@
 
 // -----------------------------------------------------------------------------------
 
-// Q.5 what is type coercion?
+// Q.5) what is type coercion?
 
     // Type coercion is the automatic conversion of one data type to another data type by the operator.
 
@@ -92,3 +92,106 @@
 
 // -----------------------------------------------------------------------------------
 
+// Q.6) Accept and print the answer.
+
+    // let age = prompt('Enter your age');
+    // console.log('Age:',age);
+
+    // Output: Age: 20;
+
+// -----------------------------------------------------------------------------------
+
+// Q.7) Swap two variables.
+
+// 1st Method: by using extra variable.
+
+    // let a = 10;
+    // let b = 20;
+
+    // let temp = a;
+    // a = b;
+    // b = temp;
+
+    // console.log(a,b);
+
+    // Output: 20 10
+
+// 2nd Method: by two variable itself using mathematical calculation.
+
+    // let a = 10;
+    // let b = 20;
+
+    // a = a + b; // 30
+    // b = a - b; // 10
+    // a = a - b; // 20
+
+    // console.log(a, b)
+
+    // Output: 20 10
+
+// 3rd Method: by Destructuring method.
+
+    // let a = 10;
+    // let b = 20;
+
+    // [a, b] = [b, a];
+
+    // console.log(a,b);
+
+    // Output: 20 10
+
+// -----------------------------------------------------------------------------------
+
+// Q.8) what is Modulus and how to use it?
+
+// It returns only remainder.
+
+    // console.log(10 % 2);
+    // Output: 0
+
+    // console.log(4 % 10);  // When dividend is less than divisor, modulo returns the dividend itself.
+    // Output: 4
+
+// -----------------------------------------------------------------------------------
+
+// Q.9) what is condition operator?
+
+    // console.log(10>8 && 10>9); // true // if anyone of the condition is false, then result will be false and if both are true, then result will be true.
+
+    // console.log(10>8 || 10>11); // true // if anyone of the condition is true, then result will be true and if both are false, then result will be false.
+
+// -----------------------------------------------------------------------------------
+
+// Q.10) what is ternary operator?
+
+    // console.log(10>8 ? 'True' : 'False');  // true
+
+    // console.log(10>11 ? 'True' : 'False');  // false
+
+// -----------------------------------------------------------------------------------
+
+// Q.11) what is uniary operator?
+
+// There are two types of uniary operator.
+
+// 1) increment operator. (++a, a++)
+    // let a = 10;
+    // a++;
+    // console.log(a);
+    // Output: 11
+
+    // let a = 10;
+    // ++a;
+    // console.log(a);
+    // Output: 11
+
+// 2) decrement operator. (--a, a--)
+    // let a = 10;
+    // a--;
+    // console.log(a)
+    // Output: 9
+
+    // let a = 10;
+    // --a;
+    // console.log(a)
+    // Output: 9
