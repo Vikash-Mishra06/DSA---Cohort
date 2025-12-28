@@ -172,53 +172,53 @@
 
 // Q.11) what is uniary operator?
 
-// There are two types of uniary operator.
+    // There are two types of uniary operator.
 
-// 1) increment operator. (++a, a++)
+    // 1) increment operator. (++a, a++)
+        // let a = 10;
+        // a++;
+        // console.log(a);
+        // Output: 11
+
+        // let a = 10;
+        // ++a;
+        // console.log(a);
+        // Output: 11
+
+    // 2) decrement operator. (--a, a--)
+        // let a = 10;
+        // a--;
+        // console.log(a)
+        // Output: 9
+
+        // let a = 10;
+        // --a;
+        // console.log(a)
+        // Output: 9
+
+    // Difference between increment and decrement operator is that increment operator increase the value by one and decrement operator decrease the value by one.
+    // Difference between pre-increment and post-increment operator is that pre-increment operator increase the value by one before using it and post-increment operator increase the value by one after using it.
+
+    // Ex: Dominos (Pre-increment)
+    // First pay -> Eat
+    // Change -> Use
+
     // let a = 10;
-    // a++;
-    // console.log(a);
-    // Output: 11
+    // let b = ++a;
+    // console.log(a, b);
+    // Output: 11 11
+
+    // Ex: Dhaba (Post-increment)
+    // First eat -> Pay
+    // Use -> Change
 
     // let a = 10;
-    // ++a;
-    // console.log(a);
-    // Output: 11
-
-// 2) decrement operator. (--a, a--)
-    // let a = 10;
-    // a--;
-    // console.log(a)
-    // Output: 9
+    // let b = a++;
+    // console.log(a, b);
+    // Output: 11 10
 
     // let a = 10;
-    // --a;
-    // console.log(a)
-    // Output: 9
-
-// Difference between increment and decrement operator is that increment operator increase the value by one and decrement operator decrease the value by one.
-// Difference between pre-increment and post-increment operator is that pre-increment operator increase the value by one before using it and post-increment operator increase the value by one after using it.
-
-// Ex: Dominos (Pre-increment)
-// First pay -> Eat
-// Change -> Use
-
-// let a = 10;
-// let b = ++a;
-// console.log(a, b);
-// Output: 11 11
-
-// Ex: Dhaba (Post-increment)
-// First eat -> Pay
-// Use -> Change
-
-// let a = 10;
-// let b = a++;
-// console.log(a, b);
-// Output: 11 10
-
-// let a = 10;
-// console.log(a++ + ++a); // a++ use the value of a first then increase the value of a by 1. and ++a first add the value of a by 1 and then use. so the answer is 22 because 10 + 12 = 22.
-// Output: 22
+    // console.log(a++ + ++a); // a++ use the value of a first then increase the value of a by 1. and ++a first add the value of a by 1 and then use. so the answer is 22 because 10 + 12 = 22.
+    // Output: 22
 
 // -----------------------------------------------------------------------------------
